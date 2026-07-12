@@ -74,8 +74,7 @@ def verificar_api_key(api_key: str = Security(API_KEY_HEADER)):
             status_code=401,
             detail={
                 "error": "Autenticación requerida",
-                "mensaje": "Debes enviar el header 'X-API-Key' con tu clave de acceso.",
-                "ejemplo": "X-API-Key: edubot-dev-key-2026"
+                "mensaje": "Debes enviar el header 'X-API-Key' con tu clave de acceso."
             }
         )
     if api_key != API_KEY_VALUE:
