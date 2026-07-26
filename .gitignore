@@ -1,0 +1,28 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Variables locales y secretos
+.env
+.env.*
+
+# IDE y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Reportes locales
+reportes/
+
+# Archivos generados por pip/venv
+pyvenv.cfg
+
+# ZIP generados localmente
+*.zip

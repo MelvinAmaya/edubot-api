@@ -1,0 +1,14 @@
+# ── Dependencias de producción ──────────────────────────────
+fastapi==0.115.0
+uvicorn==0.30.1
+pydantic==2.10.6
+pydantic-core==2.27.2
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.6.1
+joblib==1.4.2
+
+# ── Dependencias de desarrollo y CI ────────────────────────
+pytest==8.3.5          # ejecutar los tests
+httpx==0.28.1          # cliente HTTP para TestClient de FastAPI
+ruff==0.9.10           # linter de calidad de código
