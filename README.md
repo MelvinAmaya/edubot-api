@@ -105,8 +105,6 @@ El modelo analiza el comportamiento del estudiante en tiempo real. Cuando detect
 | Activepieces | Plataforma de automatización que orquesta el flujo del bot | ✅ Funcionando |
 | API de Predicción | FastAPI en Render — calcula la Pd del estudiante | ✅ Funcionando |
 | Modelo ML | Regresión Logística entrenada con scikit-learn | ✅ Cargado |
-| API de Lenguaje | Groq + Llama 3 para generar explicaciones del Modo Refuerzo | 🔄 En integración |
-| Base de datos | Supabase (PostgreSQL) para historial de usuarios y progreso | 🔄 En desarrollo |
 
 **Flujo actual:**
 
