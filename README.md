@@ -312,6 +312,19 @@ pytest tests/ -v
 
 ---
 
+## Evidencias
+
+| Evidencia | Enlace o ubicación | Descripción |
+|---|---|---|
+| API en producción | https://edubot-api-db1w.onrender.com/health | Health check del servicio |
+| Swagger UI | https://edubot-api-db1w.onrender.com/docs | Documentación interactiva |
+| Repositorio | https://github.com/MelvinAmaya/edubot-api | Código fuente completo |
+| Tests automáticos | `tests/test_predict.py` | 6 pruebas — todas pasando |
+| Contrato de API | `docs/api.md` | Entrada, salida y errores documentados |
+| Notebook de entrenamiento | `laboratorio_1_machine_learning.py` | Entrenamiento del modelo ML |
+
+---
+
 ## Variables de entorno
 
 | Variable | Descripción | Obligatoria |
