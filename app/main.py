@@ -1,10 +1,14 @@
+# ============================================================
+#  EduBot AI — Punto de entrada principal
+#  Arranca la aplicación FastAPI y registra las rutas.
+# ============================================================
+
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 from fastapi.exceptions import RequestValidationError
 from datetime import datetime, timezone
 
-from app.api.routes import router
-from app.models.model_loader import MODEL_STATUS
+from app.api.routes import router   # ← MODEL_STATUS eliminado de aquí
 
 API_VERSION  = "2.1.0"
 API_NAME     = "EduBot AI — API de Predicción de Deserción"
